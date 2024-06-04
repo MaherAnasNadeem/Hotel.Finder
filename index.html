@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansii Hotels</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="https://i.ibb.co/m0d7Pwz/hotel-finder.jpg" alt="Ansii Hotels Logo">
+        </div>
+        <div class="header-controls">
+            <button class="btn">Sign Up</button>
+            <button class="btn">Sign In</button>
+            <select class="currency-select">
+                <option value="usd">USD $</option>
+            </select>
+            <div class="language-select">
+                <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" alt="English" class="flag-icon">
+                <select>
+                    <option value="eng">ENG</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Elements</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">User Profile</a></li>
+        </ul>
+    </nav>
+   <section class="hotel-section">
+        <div class="hotel-content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h2>Find Your Perfect Hotel</h2>
+            <div class="underline"></div>
+            <form class="search-form">
+                <div class="form-group">
+                    <label for="location"><i class="fas fa-map-marker-alt"></i></label>
+                    <input type="text" id="location" placeholder="Enter city, region or district">
+                </div>
+                <div class="form-group">
+                    <label for="checkin"><i class="fas fa-calendar-alt"></i></label>
+                    <input type="date" id="checkin" placeholder="Check-in">
+                </div>
+                <div class="form-group">
+                    <label for="checkout"><i class="fas fa-calendar-alt"></i></label>
+                    <input type="date" id="checkout" placeholder="Check-out">
+                </div>
+                <div class="form-group">
+                    <label for="guests"><i class="fas fa-user-friends"></i></label>
+                    <input type="text" id="guests" placeholder="2 Adult, 0 Children in 1 room">
+                </div>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+<section class="top-destinations">
+        <div class="container">
+            <h2>Top Destinations</h2>
+            <div class="underline"></div>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="https://i.ibb.co/7NJ73Yy/king-size-bedroom.jpg" alt="King Size Bedroom">
+                    <div class="card-content">
+                        <h3>King Size Bedroom</h3>
+                        <p>A luxurious king size bedroom with stunning views and modern amenities.</p>
+                        <ul class="features">
+                            <li><i class="fas fa-wifi"></i> Free Wi-Fi</li>
+                            <li><i class="fas fa-coffee"></i> Incl. breakfast</li>
+                            <li><i class="fas fa-tv"></i> Flat-screen TV</li>
+                            <li><i class="fas fa-bath"></i> Bathroom</li>
+                        </ul>
+                        <div class="price-rating">
+                            <span class="price">$100 <small>per night</small></span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://i.ibb.co/mcc0MYP/awesome-suit.jpg" alt="Awesome Suits">
+                    <div class="card-content">
+                        <h3>Awesome Suits</h3>
+                        <p>Spacious suites with a beautiful view and high-end facilities for a perfect stay.</p>
+                        <ul class="features">
+                            <li><i class="fas fa-wifi"></i> Free Wi-Fi</li>
+                            <li><i class="fas fa-coffee"></i> Incl. breakfast</li>
+                            <li><i class="fas fa-swimmer"></i> Swimming pool</li>
+                            <li><i class="fas fa-bath"></i> Bathroom</li>
+                        </ul>
+                        <div class="price-rating">
+                            <span class="price">$250 <small>per night</small></span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="destination-card">
+                  <img src="https://i.ibb.co/SB1Zdvf/single-room.jpg" alt="Single Room">
+                    <div class="card-content">
+                        <h3>Single Room</h3>
+                      
+                        <p>A modern hotel room in Star Hotel. Nunc tempor erat in magna pulvinar fermentum.</p>
+                        <ul class="features">
+                            <li><i class="fas fa-wifi"></i> Free Wi-Fi</li>
+                            <li><i class="fas fa-coffee"></i> Incl. breakfast</li>
+                            <li><i class="fas fa-balcony"></i> Private balcony</li>
+                            <li><i class="fas fa-bath"></i> Bathroom</li>
+                        </ul>
+                        <div class="price-rating">
+                            <span class="price">$150 <small>per night</small></span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="usp-section">
+        <div class="container">
+            <h2>USP Section</h2><br><br>
+            <div class="usp-grid">
+                <div class="usp-item">
+                    <i class="fas fa-glass-martini-alt"></i>
+                    <h3>Beverages Included</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum eleifend augue, quis rhoncus purus fermentum.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+                <div class="usp-item">
+                    <i class="fas fa-credit-card"></i>
+                    <h3>Best Deals</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum eleifend augue, quis rhoncus purus fermentum.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+                <div class="usp-item">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Guarantee</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum eleifend augue, quis rhoncus purus fermentum.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="discover-world">
+        <div class="container">
+            <h2>Discover the World</h2>
+            <div class="underline"></div>
+            <div class="world-grid">
+                <div class="grid-item overlay">
+                    <img src="https://i.ibb.co/Hz8J97s/berlin.jpg" alt="Berlin">
+                    <div class="overlay-content">
+                        <h3>Berlin</h3>
+                        <p>Germany</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 374 properties</p>
+                    </div>
+                </div> <div class="grid-item overlay">
+                    <img src="https://i.ibb.co/0JWfpHK/charles-postiaux-Q6-Uehpk-BSn-Q-unsplash.jpg" alt="Berlin">
+                    <div class="overlay-content">
+                        <h3>London</h3>
+                        <p>United Kingdom</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 374 properties</p>
+                    </div>
+                </div> <div class="grid-item overlay">
+                    <img src="https://i.ibb.co/wQ9VMBg/alexander-kagan-t9-Td0zf-DTw-I-unsplash.jpg" alt="Berlin">
+                    <div class="overlay-content">
+                        <h3>Paris</h3>
+                        <p>France</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 374 properties</p>
+                    </div>
+                </div> <div class="grid-item overlay">
+                    <img src="https://i.ibb.co/pQFtNqh/anna-berdnik-0n0-AHB1fg-TQ-unsplash.jpg" alt="Berlin">
+                    <div class="overlay-content">
+                        <h3>Istanbul</h3>
+                        <p>Turkey</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 374 properties</p>
+                    </div>
+                </div> <div class="grid-item overlay">
+                    <img src="https://i.ibb.co/FgCP0nd/zhou-xian-7t-FFO6-Mq5-L4-unsplash.jpg" alt="Berlin">
+                    <div class="overlay-content">
+                        <h3>Shanghai</h3>
+                        <p>China</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 374 properties</p>
+                    </div>
+                </div> <div class="grid-item overlay">
+                    <img src="https://i.ibb.co/cgQT3wz/jan-folwarczny-ZXBPMn-NVtl-E-unsplash.jpg" alt="Berlin">
+                    <div class="overlay-content">
+                        <h3>New York</h3>
+                        <p>USA</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 374 properties</p>
+                    </div>
+                </div>
+               
+    </section>
+    <section class="visitors-experienced">
+        <div class="container">
+            <h2>Visitors Experienced</h2>
+            <div class="underline"></div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <img src="https://i.ibb.co/YN009Yk/michael-dam-m-EZ3-Po-FGs-k-unsplash.jpg" alt="Sara Connor">
+                    <div class="testimonial-content">
+                        <h3>Sara Connor</h3>
+                        <p class="title">Travel Magazine</p>
+                        <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam nar.</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://i.ibb.co/FYNRRTn/jake-nackos-IF9-TK5-Uy-KI-unsplash.jpg" alt="Mira Yang">
+                    <div class="testimonial-content">
+                        <h3>Mira Yang</h3>
+                        <p class="title">Hotel Manager</p>
+                        <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam nar.</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://i.ibb.co/xjY78s2/albert-dera-ILip77-Sbm-OE-unsplash.jpg" alt="John Smith">
+                    <div class="testimonial-content">
+                        <h3>John Smith</h3>
+                        <p class="title">Hotel Manager</p>
+                        <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam nar.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="back-to-top">Back to top</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section hotel-finder">
+                    <h3>Hotel Finder</h3>
+                    <p>Suspendsae sed sollicitudin nisi, et dignissim libero. Sed porta tincidunt ipsum, vel vulputate.</p>
+                    <p>Nunc et fringilla urna. Cras vel adipiscing ipsum. Integer dignissim mi leo euismod interdum facilisis. Aliquam erat volutpat. Nulla.</p>
+                </div>
+                <div class="footer-section contact-info">
+                    <h3>Contact Info</h3>
+                    <p><strong>Address</strong></p>
+                    <p>Hotel Finder<br>1400 Lenine Ave, Zaporozhye, UA</p>
+                    <p><strong>Phone Number</strong></p>
+                    <p>1-555-555-5555</p>
+                    <p><strong>Email Address</strong></p>
+                    <p>info@besthotelfinder.com</p>
+                </div>
+                <div class="footer-section pages">
+                    <h3>Pages</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Elements</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">User Profile</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section follow-us">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <h3>Mailing List</h3>
+                    <p>Sign up for our mailing list to get latest updates and offers.</p>
+                    <form class="mailing-list-form">
+                        <input type="email" placeholder="Your E-mail">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
